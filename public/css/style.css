@@ -1,0 +1,72 @@
+body {
+    background-color: #1A1A1B;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    font-family: 'Arial, sans-serif';
+    color: #D7DADC;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1A1A1B;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 6px;
+    border: 3px solid #1A1A1B;
+}
+
+header {
+    background-color: #1A1A1B;
+    border-bottom: 1px solid #444;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #D7DADC;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #444;
+    color: #FF4500;
+    /* Reddit's brand color */
+}
+
+main {
+    padding-top: 2rem;
+}
+
+article {
+    background-color: #29292a;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    border: 2px solid #FF4500;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
